@@ -1,0 +1,54 @@
+#共通無視フォルダ
+[Dd]ebug/
+[Rr]elease/
+packages/
+.vs
+.idea
+Library/
+Assets/
+# Asset/
+
+#共通無視拡張子
+*.tlog
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.log
+*.ipch
+*.opendb
+*.db
+*.suo
+*.inc
+*.shaderInc
+
+*.pptx
+*.xlsx
+
+imgui.ini
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebugPublic/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# others

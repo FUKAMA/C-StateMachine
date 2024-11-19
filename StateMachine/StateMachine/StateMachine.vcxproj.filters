@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{b5a221d3-8fe0-4c22-b265-4ab6c7ac39c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\StateMachine">
+      <UniqueIdentifier>{a0ca2d1a-29cd-496c-a2b7-ab5a8be36519}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\StateMachine\StateMachine.h">
+      <Filter>include\StateMachine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
