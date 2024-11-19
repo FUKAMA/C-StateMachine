@@ -20,6 +20,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\StateMachine\StateMachine.h" />
+    <ClInclude Include="Include\StateMachine\State\StateBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Include\StateMachine\State\StateBase.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
