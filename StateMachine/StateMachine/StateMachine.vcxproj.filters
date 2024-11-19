@@ -21,10 +21,16 @@
     <ClInclude Include="Include\StateMachine\State\StateBase.h">
       <Filter>include\StateMachine\State</Filter>
     </ClInclude>
+    <ClInclude Include="Include\StateMachine\Machine\Machine.h">
+      <Filter>include\StateMachine\Machine</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Include\StateMachine\State\StateBase.cpp">
       <Filter>include\StateMachine\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\StateMachine\Machine\Machine.cpp">
+      <Filter>include\StateMachine\Machine</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
