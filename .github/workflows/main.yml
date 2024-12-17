@@ -1,39 +1,49 @@
 # This is a basic workflow to help you get started with Actions
 
+# このワークフローの名前
 name: CI
 
-# Controls when the workflow will run
+# このワークフローが実行される条件
+# -----------------------------------------
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
+  # メインブランチにプッシュされた時
   push:
     branches: [ "main" ]
+  # メインブランチにプルリクエストが来たとき
   pull_request:
     branches: [ "main" ]
 
-  # Allows you to run this workflow manually from the Actions tab
+  # ワークフロー実行ボタンが押された時
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# このワークフローが実行された時の処理
+# ----------------------------------------
+
+# すべてのジョブ
 jobs:
-  # This workflow contains a single job called "build"
+  # ジョブの名前
   build:
-    # The type of runner that the job will run on
+    # ジョブを実行する環境
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # このジョブが順次実行するステップ
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
+      # ステップの名前
       - name: Run a one-line script
+      # ステップの処理
         run: echo Hello, world!
 
-      # Runs a set of commands using the runners shell
+      # ステップの名前
       - name: Run a multi-line script
+      # ステップの処理
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+  # ジョブの名前
   newJob:
     runs-on: ubuntu-latest
 
