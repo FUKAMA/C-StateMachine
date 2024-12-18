@@ -28,7 +28,7 @@ jobs:
 
     # このジョブが順次実行するステップ
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # このリポジトリをクローン
       - uses: actions/checkout@v3
 
       # ステップの名前
